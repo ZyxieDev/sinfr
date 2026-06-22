@@ -12,7 +12,7 @@ except ImportError:
 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.json")) as f:
     CONFIG = json.load(f)
 
-PREFIX = CONFIG.get("prefix", ".")
+PREFIX = CONFIG.get("prefix", ".") 
 
 intents = discord.Intents.default()
 intents.members = True
