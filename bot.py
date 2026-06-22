@@ -20,15 +20,14 @@ intents.message_content = True
 intents.moderation = True
 
 INITIAL_EXTENSIONS = [
-    "cogs.whitelist",
-    "cogs.sin",
-    "cogs.moderation",
-    "cogs.antinuke",
-    "cogs.antimod",
-    "cogs.boost",
-    "cogs.application",
-    "cogs.logging_cog",
-    "cogs.welcome",
+    "sin",
+    "moderation",
+    "antinuke",
+    "antimod",
+    "boost",
+    "application",
+    "logging_cog",
+    "welcome",
 ]
 
 
