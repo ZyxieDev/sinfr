@@ -20,6 +20,7 @@ intents.message_content = True
 intents.moderation = True
 
 INITIAL_EXTENSIONS = [
+    "whitelist",
     "sin",
     "moderation",
     "antinuke",
